@@ -1,5 +1,5 @@
 import HeroSection from "../Components/PageSections/HeroSection/HeroSection";
-import AboutSection from "../Components/PageSections/About/AboutSection"
+import AboutSection from "../Components/PageSections/About/AboutSection";
 
 export default function Home() {
 	return (
@@ -8,9 +8,9 @@ export default function Home() {
 				<HeroSection />
 			</section>
 
-      <section>
-        <AboutSection />
-      </section>
+			<section>
+				<AboutSection />
+			</section>
 
 			<div style={{ height: "100vh" }}></div>
 		</div>
