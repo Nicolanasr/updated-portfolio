@@ -1,0 +1,74 @@
+.aboutSection {
+	min-height: 60vh;
+	padding: 5%;
+	width: 100%;
+	background-color: #e9e9e9;
+}
+
+.aboutSectionRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-height: 200px;
+	height: 200px;
+	align-items: center;
+}
+
+.aboutDetails ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.aboutDetails ul li {
+	display: flex;
+}
+
+.aboutDetails ul li h6 {
+	font-weight: 500;
+}
+.aboutDetails ul li h6 span {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.profilePic {
+	height: 180px;
+	width: 180px;
+	background-color: #192428;
+	border-radius: 50%;
+	margin: 0 2%;
+	position: relative;
+}
+
+.profilePicWrapper img {
+	width: 150px;
+	border: 15px groove rgba(40, 96, 133, 0.28) !important;
+	border-radius: 200px;
+}
+.aboutDetails,
+.aboutMe {
+	height: 100%;
+}
+.forAlignment {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+@media (max-width: 991.5px) {
+	.aboutSection {
+		height: 100%;
+		padding: 0;
+		padding-top: 5%;
+	}
+	.aboutSectionRow {
+		min-height: 100%;
+		height: 100%;
+		align-items: start;
+		flex-direction: column;
+	}
+	.profilePic {
+		margin: 2% auto;
+	}
+}

@@ -1,0 +1,28 @@
+.heroSection {
+    height: 100vh;
+    background-image: url('/assets/images/hero-cover.png');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    position: relative;
+}
+
+.heroSectionText {
+    width: fit-content;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.heroSectionText h1{
+    font-weight: 700;
+}
+
+.heroSectionText h4{
+    font-weight: 600;
+}
