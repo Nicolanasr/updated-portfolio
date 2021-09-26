@@ -1,0 +1,112 @@
+.projectCard {
+	height: 350px;
+	max-width: 300px;
+	min-width: 250px;
+	width: 100%;
+	background-color: #475860;
+	border-radius: 3px;
+	position: relative;
+	margin: 10px;
+	z-index: 4;
+	border: 1px solid #dcdfe0;
+}
+
+.imageWrapper {
+	background-color: #d3d3d3;
+	border-radius: 3px;
+	height: 80%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	transition: all 400ms;
+	cursor: pointer;
+}
+
+.projectBody {
+	overflow: hidden;
+	padding: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: #ececec;
+	font-weight: 400;
+	background-color: #475860;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	transition: all 300ms;
+}
+
+.projectTitle {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+	position: relative;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.projectDescription {
+	position: rel;
+	opacity: 0;
+	transition: all linear 300ms;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.projectFooter {
+	z-index: 5;
+	margin-top: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.projectCard:hover .projectBody {
+	background-color: #475860f2;
+	height: 80%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.projectCard:hover .projectTitle {
+	top: 5px;
+	transform: none;
+}
+
+.projectCard:hover .projectDescription {
+	opacity: 1;
+}
+
+.projectCard:hover .imageWrapper {
+	box-shadow: inset 0 0 0 2000px #d3d3d37e;
+}
+
+.projectCard:focus .projectBody {
+	background-color: #475860f2;
+	height: 80%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.projectCard:focus .projectDescription {
+	opacity: 1;
+}
+
+.projectCard:focus .imageWrapper {
+	box-shadow: inset 0 0 0 2000px #d3d3d37e;
+}
+.projectCard:focus .projectTitle {
+	top: 5px;
+	transform: none;
+}

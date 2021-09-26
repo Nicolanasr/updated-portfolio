@@ -6,20 +6,21 @@ import SkillsCard from "../../SkillsCard/SkillsCard";
 
 import classes from "./SkillsSection.module.css";
 
-const SkillsSection = () => {
+const SkillsSection = ({ data }) => {
 	return (
 		<div className={classes.skillsSection}>
 			<Container>
 				<SectionIntro
 					title="Skills"
-					text="“Continue to study and learn new skills”"
+					text="“You learn a new skill everyday.”"
 					styles={({ title: {} }, { text: { fontStyle: "italic", fontWeight: "300" } })}
 				/>
 				<div className={classes.skillsContainer}>
-					<SkillsCard className=""/>
-					<SkillsCard className=""/>
-					<SkillsCard className=""/>
-					<SkillsCard className=""/>
+					{
+						data.map((skill, index) => {
+							return <SkillsCard key={`${skill.title}-${index}`} skill={skill} />
+						})
+					}
 				</div>
 			</Container>
 		</div>

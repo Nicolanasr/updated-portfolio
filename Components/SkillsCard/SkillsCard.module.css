@@ -1,10 +1,12 @@
 .skillsCard {
     height: 400px;
-    max-width: 220px;
+    max-width: 240px;
     min-width: 200px;
-    background-color: #D3D3D3;
+    width: 100%;
+    background-color: #E9E9E9;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
     margin: 10px;
+    border-radius: 2px;
 }
 
 .cardHeader{
@@ -14,6 +16,13 @@
     justify-content: center;
     align-items: center;
     color: white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.skillName span img{
+    width: 20px;
+    margin-right: 3px;
 }
 
 .skillsBody {

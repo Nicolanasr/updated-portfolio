@@ -5,6 +5,8 @@ import HeroSection from "../Components/PageSections/HeroSection/HeroSection";
 import AboutSection from "../Components/PageSections/About/AboutSection";
 import CareerSection from "../Components/PageSections/CareerSection/CareerSection";
 import SkillsSection from "../Components/PageSections/Skills/SkillsSection";
+import ProjectsSections from "../Components/PageSections/ProjectsSection/ProjectsSections";
+import Footer from "../Components/Footer/Footer";
 
 export default function Home(props) {
 	return (
@@ -13,19 +15,25 @@ export default function Home(props) {
 				<HeroSection />
 			</section>
 
-			<section>
+			<section id="about">
 				<AboutSection data={props.aboutSection} />
 			</section>
 
-			<section>
+			<section id="skills">
+				<SkillsSection data={props.skillsSection} />
+			</section>
+
+			<section id="career">
 				<CareerSection data={props.careerSection} />
 			</section>
 
-			<section>
-				<SkillsSection />
+			<section id="projects">
+				<ProjectsSections data={props.projectsSection} />
 			</section>
 
-			<div style={{ height: "100vh", backgroundColor: "grey" }}></div>
+			<section id="contact">
+				<Footer />
+			</section>
 		</div>
 	);
 }
@@ -39,6 +47,8 @@ export async function getStaticProps() {
 		props: {
 			aboutSection: homeData.aboutSection,
 			careerSection: homeData.careerSection,
+			skillsSection: homeData.skillsSection,
+			projectsSection: homeData.projectsSection,
 		},
 		revalidate: 86400,
 	};

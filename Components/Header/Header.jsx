@@ -32,10 +32,10 @@ const Header = () => {
 	};
 
 	return (
-		<nav className={`navbar fixed-top navbar-expand-lg  ${classes.custom_navbar} ${scrollState && classes.navbarColorScroll}`}>
+		<nav className={`navbar fixed-top navbar-expand-lg  ${classes.custom_navbar} ${scrollState && classes.navbarColorScroll} ${scrollState && classes.boxShadow} `}>
 			<div className="container-fluid">
 				<div className={`navbar-brand `}>
-					<Link href="/">
+					<Link href="#">
 						<a className={classes.navbarBrand}>
 							<h4>NICOLAS NASR</h4>
 							<h6>PORTFOLIO</h6>
@@ -50,28 +50,28 @@ const Header = () => {
 				>
 					<ul className="navbar-nav">
 						<li className="nav-item">
-							<Link href="/about-me">
+							<Link href="#about">
 								<a current="page">ABOUT</a>
 							</Link>
 						</li>
 
 						<li className="nav-item">
-							<Link href="/about-me">
-								<a current="page">CAREER</a>
-							</Link>
-						</li>
-						<li className="nav-item">
-							<Link href="/our-portfolio">
+							<Link href="#skills">
 								<a current="page">SKILLS</a>
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="/about-us">
+							<Link href="#career">
+								<a current="page">CAREER</a>
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link href="#projects">
 								<a current="page">PROJECTS</a>
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link href="/about-us">
+							<Link href="#contact">
 								<a current="page">CONTACT</a>
 							</Link>
 						</li>
