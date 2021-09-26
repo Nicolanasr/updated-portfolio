@@ -16,7 +16,7 @@ const AboutSection = ({ data }) => {
 					<div className={`col ${classes.aboutMe}`}>
 						<div className={classes.forAlignment}>
 							<h4>ABOUT ME</h4>
-							<div dangerouslySetInnerHTML={{__html: `<p>${data.about}</p>`}} />
+							<div dangerouslySetInnerHTML={{ __html: `<p>${data.about}</p>` }} />
 						</div>
 					</div>
 					<div className={` ${classes.profilePic}`}>

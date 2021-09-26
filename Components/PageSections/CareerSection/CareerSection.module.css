@@ -1,0 +1,15 @@
+.careerSection {
+	background-color: #d3d3d3;
+	padding: 5%;
+	width: 100%;
+}
+
+@media (max-width: 991.5px) {
+	.careerSection {
+		height: 100%;
+		padding: 0;
+		padding-top: 5%;
+	}
+
+}
+

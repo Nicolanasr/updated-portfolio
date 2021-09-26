@@ -4,6 +4,6 @@
     padding-bottom: 30px;
 }
 
-.introText h5{
-    font-weight: bold;
+.sectionIntro h2, .sectionIntro h5, .sectionIntro h4{
+    font-weight: 500;
 }
