@@ -4,7 +4,6 @@ import LineBreaker from '../UI/LineBreaker/LineBreaker'
 import classes from "./SectionIntro.module.css"
 
 const SectionIntro = (props) => {
-    console.log(props)
     return (
         <div className={classes.sectionIntro}>
             <div className={classes.introTitle}>
