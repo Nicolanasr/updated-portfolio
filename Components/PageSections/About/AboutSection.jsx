@@ -7,7 +7,7 @@ import Container from "../../../Layout/Container/Container";
 
 import classes from "./AboutSection.module.css";
 
-const AboutSection = () => {
+const AboutSection = ({ data }) => {
 	return (
 		<div className={classes.aboutSection}>
 			<Container>
@@ -16,39 +16,35 @@ const AboutSection = () => {
 					<div className={`col ${classes.aboutMe}`}>
 						<div className={classes.forAlignment}>
 							<h4>ABOUT ME</h4>
-							<p>
-								Est accusantium consectetur iure. Doloribus doloremque molestiae qui in ipsam ex. Quas cumque exercitationem minima.
-								Dignissimos similique quam dolorum dignissimos tempore facere maiores. Aut maxime occaecati eaque voluptatem. Neque ea
-								suscipit harum animi rerum dolorem.
-							</p>
+							<div dangerouslySetInnerHTML={{ __html: `<p>${data.about}</p>` }} />
 						</div>
 					</div>
 					<div className={` ${classes.profilePic}`}>
 						<div className={classes.profilePicWrapper}>
-							<Image src="/assets/images/profile-pic.jpg" alt="profile_pic" layout="fill"></Image>
+							<Image src={data.profilePic.src} alt={data.profilePic.alt} layout="fill"></Image>
 						</div>
 					</div>
 					<div className={`col ${classes.aboutDetails}`}>
 						<div className={classes.forAlignment}>
-                            <h4>DETAILS</h4>
-                            <ul>
-                                <li>
-                                    <h6>
-                                        FULL NAME: <span>Nicolas Georges Nasr</span>
-                                    </h6>
-                                </li>
-                                <li>
-                                    <h6>
-                                        AGE: <span>21</span>
-                                    </h6>
-                                </li>
-                                <li>
-                                    <h6>
-                                        ADDRESS: <span>Lebanon, Mount Lebanon, Byblos-Jbeil</span>
-                                    </h6>
-                                </li>
-                            </ul>
-                        </div>
+							<h4>DETAILS</h4>
+							<ul>
+								<li>
+									<h6>
+										FULL NAME: <span>{data.fullName}</span>
+									</h6>
+								</li>
+								<li>
+									<h6>
+										AGE: <span>{data.age}</span>
+									</h6>
+								</li>
+								<li>
+									<h6>
+										ADDRESS: <span>{data.address}</span>
+									</h6>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</Container>

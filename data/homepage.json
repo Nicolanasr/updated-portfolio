@@ -1,0 +1,142 @@
+{
+	"aboutSection": {
+		"about": "A full stack web developer with 4+ months of work experience building and testing responsive web applications, <br />Skilled with JavaScript(Mern stack) and Python(Django). Independently built some websites(School management system and many more) that can be found on my portfolio.",
+		"fullName": "Nicolas Georges Nasr",
+		"age": "21",
+		"address": "Lebanon, Mount Lebanon, Byblos-Jbeil",
+		"profilePic": { "src": "/assets/images/profile-pic.jpg", "alt": "profile_pic" }
+	},
+	"careerSection": [
+		{
+			"title": "Work Experience",
+			"experiences": [
+				{
+					"place": "<a href='https://greynab.com/' target='_blank'>Greynab</a>",
+					"title": "Full Stack web developer",
+					"from": "Aug 2021",
+					"description": "<ul> <li>Managing the complete software development process from conception to deployment.</li> <li>Developing full-stack responsive web applications.</li></u>"
+				}
+			]
+		},
+		{
+			"title": "Education",
+			"experiences": [
+				{
+					"place": "Don Bosco School",
+					"from": "2004",
+					"to": "2015"
+				},
+
+				{
+					"place": "Lycee Officiel Ghazir",
+					"from": "2015",
+					"to": "2018",
+					"description": "Went to high school and graduated from Lycee Officiel Ghazir. <br />Did my Baccalauréat in SV."
+				},
+				{
+					"place": "Lebanese University-Faculty Of Science",
+					"title": "Computer Science",
+					"from": "2019",
+					"description": "Currently my 4th semester studying computer science at the lebanese university looking to graduate in 2022"
+				}
+			]
+		},
+		{
+			"title": "Licences And Certifications",
+			"experiences": [
+				{
+					"place": "Full Stack Development Track",
+					"date": "March 2021",
+					"description": "Udacity - <a href='https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9839e02a-2422-4dcb-a563-ec2239a13aed.pdf' target='_blank'>Credential Url</a>"
+				},
+				{
+					"place": "Web Application Technologies and Django",
+					"date": "December 2020",
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/certificate/KCJAC7NPH3PL' target='_blank'>Credential Url</a>"
+				},
+				{
+					"place": "Python for Everybody Specialization",
+					"date": "December 2020",
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/PM27BFAX7VDH' target='_blank'>Credential Url</a>"
+				}
+			]
+		}
+	],
+	"skillsSection": [
+		{
+			"title": "PROGRAMMING LANGUAGES",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/javascript--v1.png'/>", "text": "JavaScript" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/python--v1.png'/>", "text": "Python" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/c-plus-plus-logo.png'/>", "text": "C++" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png'/>", "text": "Java" }
+			]
+		},
+		{
+			"title": "FRONT-END",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/html-5--v1.png'/>", "text": "HTML" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/css3.png'/>", "text": "CSS" },
+				{ "icon": "<img src='https://img.icons8.com/plasticine/100/000000/react.png'/>", "text": "ReactJs" },
+				{ "icon": "<img src='https://nextjs.org/static/favicon/favicon-32x32.png'/>", "text": "NextJs" },
+				{ "icon": "<img src='https://nextjs.org/static/favicon/favicon-32x32.png'/>", "text": "JQuery" }
+			]
+		},
+		{
+			"title": "BACK-END",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/nodejs.png'/>", "text": "NodeJs" },
+				{ "icon": "<img src='https://img.icons8.com/windows/32/000000/node-js.png'/>", "text": "ExpressJs" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/django.png'/>", "text": "Django" },
+				{ "icon": "<img src='https://img.icons8.com/material-outlined/48/000000/api-settings.png'/>", "text": "Rest API" }
+			]
+		},
+		{
+			"title": "DATABASE",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/mongodb.png'/>", "text": "MongoDB" },
+				{ "icon": "<img src='https://img.icons8.com/dotty/80/000000/sql.png'/>", "text": "SQL" }
+			]
+		}
+	],
+	"projectsSection": [
+		{
+			"title": "E-commerce Website",
+			"description": "Fully functional e-commerce website built with django 3.1.7 and Python 3.9.1",
+			"image": "https://i.imgur.com/lH87LZ7.png",
+			"projectUrl": "/project/1",
+			"demoBtn": { "text": "Live Demo", "url": "https://nicolas-e-commerce.herokuapp.com/store/" },
+			"codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/e-commerce" }
+		},
+		{
+			"title": "Project management system",
+			"description": "A project management system for small and large teams built with django 3.1.7 and Python 3.9.1",
+			"image": "https://i.imgur.com/4QTagJQ.png",
+			"projectUrl": "/project/2",
+			"demoBtn": { "text": "Live Demo", "url": "https://nicolas-prm-2.herokuapp.com/" },
+			"codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/PRM-nicolas-Heroku-" }
+		},
+		{
+			"title": "School management system",
+			"description": "Fully featured school management system (LMS)",
+			"image": "https://i.imgur.com/TJjvhl8.png",
+			"projectUrl": "/project/3",
+			"demoBtn": { "text": "Live Demo", "url": "https://nicolas-school-management.herokuapp.com/" },
+			"codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/school-management" }
+		},
+				{
+			"title": "Discord bot",
+			"description": "A discord bot written in python",
+			"image": "https://i.imgur.com/rC9dtaW.png",
+			"projectUrl": "/project/4",
+			"codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/discord-bot" }
+		},
+				{
+			"title": "Twitter followers check",
+			"description": "A twitter bot that will check who followed and who unfollowed (Using twitter api)",
+			"image": "https://i.imgur.com/FgB7Vqs.png",
+			"projectUrl": "/project/5",
+			"codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/Twitter-follower-API" }
+		}
+	]
+}

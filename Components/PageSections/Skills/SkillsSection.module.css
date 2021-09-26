@@ -1,0 +1,22 @@
+.skillsSection {
+	background-color: #d3d3d3;
+	padding: 5%;
+	width: 100%;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 991.5px) {
+	.skillsSection {
+		height: 100%;
+		padding: 0;
+		padding-top: 5%;
+	}
+    .skillsContainer {
+        justify-content: center;
+    }
+}
