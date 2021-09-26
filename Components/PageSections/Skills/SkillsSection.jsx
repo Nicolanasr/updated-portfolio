@@ -15,7 +15,7 @@ const SkillsSection = () => {
 					text="“Continue to study and learn new skills”"
 					styles={({ title: {} }, { text: { fontStyle: "italic", fontWeight: "300" } })}
 				/>
-				<div className="">
+				<div className={classes.skillsContainer}>
 					<SkillsCard className=""/>
 					<SkillsCard className=""/>
 					<SkillsCard className=""/>
