@@ -4,6 +4,7 @@ import path from "path";
 import HeroSection from "../Components/PageSections/HeroSection/HeroSection";
 import AboutSection from "../Components/PageSections/About/AboutSection";
 import CareerSection from "../Components/PageSections/CareerSection/CareerSection";
+import SkillsSection from "../Components/PageSections/Skills/SkillsSection";
 
 export default function Home(props) {
 	return (
@@ -18,6 +19,10 @@ export default function Home(props) {
 
 			<section>
 				<CareerSection data={props.careerSection} />
+			</section>
+
+			<section>
+				<SkillsSection />
 			</section>
 
 			<div style={{ height: "100vh", backgroundColor: "grey" }}></div>

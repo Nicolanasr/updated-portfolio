@@ -1,0 +1,13 @@
+.skillsSection {
+	background-color: #E9E9E9;
+	padding: 5%;
+	width: 100%;
+}
+
+@media (max-width: 991.5px) {
+	.skillsSection {
+		height: 100%;
+		padding: 0;
+		padding-top: 5%;
+	}
+}

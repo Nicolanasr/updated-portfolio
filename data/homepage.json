@@ -47,17 +47,17 @@
 				{
 					"place": "Full Stack Development Track",
 					"date": "March 2021",
-					"description": "Udacity - <a href='https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9839e02a-2422-4dcb-a563-ec2239a13aed.pdf'>Credential Url</a>"
+					"description": "Udacity - <a href='https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9839e02a-2422-4dcb-a563-ec2239a13aed.pdf' target='_blank'>Credential Url</a>"
 				},
 				{
 					"place": "Web Application Technologies and Django",
 					"date": "December 2020",
-					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/certificate/KCJAC7NPH3PL'>Credential Url</a>"
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/certificate/KCJAC7NPH3PL' target='_blank'>Credential Url</a>"
 				},
 				{
 					"place": "Python for Everybody Specialization",
 					"date": "December 2020",
-					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/PM27BFAX7VDH'>Credential Url</a>"
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/PM27BFAX7VDH' target='_blank'>Credential Url</a>"
 				}
 			]
 		}

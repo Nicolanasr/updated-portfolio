@@ -1,0 +1,23 @@
+.skillsCard {
+    height: 400px;
+    max-width: 220px;
+    background-color: #D3D3D3;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.cardHeader{
+    background-color: #475860;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skillsBody {
+    padding: 15px 20px;
+}
+
+.skillName {
+    margin: 10px 0;
+}
