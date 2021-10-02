@@ -1,0 +1,17 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contactInfo a {
+    color: #246aaf;
+}
+
+.contactInfo > div {
+    justify-content: center;
+    width: 100%;
+}
