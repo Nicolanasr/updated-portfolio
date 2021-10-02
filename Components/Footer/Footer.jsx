@@ -1,7 +1,10 @@
 import React from "react";
-import Container from "../../Layout/Container/Container";
 
+import Container from "../../Layout/Container/Container";
+import ContactForm from "../ContactForm/ContactForm";
+import ContactInfo from "../ContactInfo/ContactInfo";
 import SectionIntro from "../SectionIntro/SectionIntro";
+
 
 import classes from "./Footer.module.css";
 
@@ -16,6 +19,9 @@ const Footer = () => {
 					titleStyles={{ color: "white" }}
 					lineBreakerColor="rgb(255 255 255 / 25%)"
 				/>
+
+				<ContactInfo />
+				<ContactForm />
 			</Container>
 		</div>
 	);

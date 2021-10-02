@@ -9,6 +9,7 @@ const Button = (props) => {
 			className={`${classes.button} ${props.className && props.className} ${props.btnStyle && classes[props.btnStyle]} ${
 				props.btnSize && classes[props.btnSize]
 			}`}
+			style={{ ...props.style || '' }}
 		>
 			{props.children}
 		</button>
