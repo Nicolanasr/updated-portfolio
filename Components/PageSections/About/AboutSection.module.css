@@ -1,8 +1,9 @@
 .aboutSection {
-	min-height: 60vh;
+	/*min-height: 80vh;*/
 	padding: 5%;
 	width: 100%;
 	background-color: #e9e9e9;
+	position: relative;
 }
 
 .aboutSectionRow {
@@ -10,7 +11,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	min-height: 200px;
-	height: 200px;
 	align-items: center;
 }
 
@@ -48,6 +48,7 @@
 .aboutDetails,
 .aboutMe {
 	height: 100%;
+	align-self: flex-start;
 }
 .forAlignment {
 	height: 100%;
