@@ -100,6 +100,13 @@
     }
   ],
   "projectsSection": [
+     {
+      "title": "MenaBev E-commerce",
+      "description": "Built the full website and E-commerce for MenaBev One of the Biggest and Highly Automated Beverage Plants in the World using NextJS",
+      "image": "/assets/images/menabev-showcase.png",
+      "projectUrl": "",
+      "demoBtn": { "text": "Demo", "url": "https://menabev.vercel.app/" }
+    },
     {
       "title": "KAUST Knowledge Partnership Program",
       "description": "This platform enables Industrys to request assistance with a technical challenge that is then reviewed, evaluated, and answered by KAUST students, faculty and subject matter expert.",
