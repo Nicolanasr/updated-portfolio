@@ -21,7 +21,7 @@ class MyDocument extends Document {
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
 						
-						gtag('config', G-9KSSH568PL);`
+						gtag('config', 'G-9KSSH568PL');`
 						}}
 					/>
 				</Head>
