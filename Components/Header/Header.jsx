@@ -20,7 +20,6 @@ const Header = () => {
 
     var trackLength = winHeight;
     var pctScrolled = Math.floor((scrollTop / trackLength) * 100);
-    console.log(pctScrolled);
 
     if (pctScrolled < 80) {
       document.getElementsByClassName("heroSectionText")[0].style.opacity = 0;
@@ -53,11 +52,11 @@ const Header = () => {
         <div className={`navbar-brand `}>
           <Link href="#" passHref>
             <div>
-              <div className={"heroSectionText"}>
+              <a className={"heroSectionText"}>
                 <h1>NICOLAS NASR</h1>
                 <LineBreaker color="white" />
                 <h4>A WEB DEVELOPER</h4>
-              </div>
+              </a>
               <a className={`${classes.navbarBrand} hide-on-scroll`}>
                 <h4>NICOLAS NASR</h4>
                 <h6>PORTFOLIO</h6>

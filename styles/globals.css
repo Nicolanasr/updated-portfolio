@@ -6,6 +6,11 @@ body {
     sans-serif;
 }
 
+/*#__next {*/
+	/*position: fixed;*/
+	/*height: fit-content;*/
+/*}*/
+
 a {
   color: inherit;
   text-decoration: none;

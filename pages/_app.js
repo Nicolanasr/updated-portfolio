@@ -10,7 +10,21 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Nicolas Nasr Portfolio</title>
+        <meta name="title" content="Nicolas Nasr Portfolio" />
+        <meta name="description" content="A full stack web developer, experience building and testing responsive web applications." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.nicolasnasr.live/" />
+        <meta property="og:title" content="Nicolas Nasr Portfolio" />
+        <meta property="og:description" content="A full stack web developer, experience building and testing responsive web applications." />
+        <meta property="og:image" content="/assets/images/profile-pic.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.nicolasnasr.live/" />
+        <meta property="twitter:title" content="Nicolas Nasr Portfolio" />
+        <meta property="twitter:description" content="A full stack web developer, experience building and testing responsive web applications." />
+        <meta property="twitter:image" content="/assets/images/profile-pic.jpg" />
       </Head>
       <Header />
       <Component {...pageProps} />
