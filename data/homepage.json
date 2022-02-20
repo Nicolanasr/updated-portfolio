@@ -101,6 +101,13 @@
   ],
   "projectsSection": [
      {
+      "title": "The B.Hive NFT",
+      "description": "The B.hive is the first coffee shop to introduce NFTs, A website built fully with Nextjs",
+      "image": "/assets/images/wfl-showcase.png",
+      "projectUrl": "",
+      "demoBtn": { "text": "Demo", "url": "https://www.thebhive.io/" }
+    },
+     {
       "title": "Women’s Football in the Saudi Arabian Football Federation",
       "description": "Website for the national and regional women's football leaugues under the Saudi Arabian Football Federation, showing results, fictures, all teams and a gallery for each match. Built mainly with NextJS",
       "image": "/assets/images/wfl-showcase.png",
