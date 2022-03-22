@@ -1,6 +1,6 @@
 {
   "aboutSection": {
-    "about": "A full stack web developer with 6+ months of work experience building and testing responsive web applications, <br />Skilled with JavaScript(Mern stack) and Python(Django). Independently built some websites(School management system and many more) that can be found on my portfolio.",
+    "about": "A full stack web developer with 10+ months of work experience building and testing responsive web applications, <br />Skilled with JavaScript(Mern stack) and Python(Django). Independently built some websites(School management system and many more) that can be found on my portfolio.",
     "fullName": "Nicolas Georges Nasr",
     "age": "21",
     "address": "Lebanon, Mount Lebanon, Byblos-Jbeil",
@@ -77,8 +77,9 @@
       "skills": [
         { "icon": "<img src='https://img.icons8.com/color/48/000000/html-5--v1.png'/>", "text": "HTML" },
         { "icon": "<img src='https://img.icons8.com/color/48/000000/css3.png'/>", "text": "CSS" },
-        { "icon": "<img src='https://img.icons8.com/plasticine/100/000000/react.png'/>", "text": "ReactJs" },
+        { "icon": "<img src='https://img.icons8.com/plasticine/100/000000/react.png'/>", "text": "React" },
         { "icon": "<img src='https://nextjs.org/static/favicon/favicon-32x32.png'/>", "text": "NextJs" },
+        { "icon": "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png'/>", "text": "Angular" },
         { "icon": "<img src='https://jquery.com/jquery-wp-content/themes/jquery.com/i/favicon.ico'/>", "text": "JQuery" }
       ]
     },
