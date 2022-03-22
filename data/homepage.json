@@ -113,7 +113,7 @@
       "description": "Website for the national and regional women's football leaugues under the Saudi Arabian Football Federation, showing results, fictures, all teams and a gallery for each match. Built mainly with NextJS",
       "image": "/assets/images/wfl-showcase.png",
       "projectUrl": "",
-      "demoBtn": { "text": "Demo", "url": "https://wfl.saff.com.sa/" }
+      "demoBtn": { "text": "Demo", "url": "https://futsal-development.vercel.app/en/" }
     },
      {
       "title": "MenaBev E-commerce",
