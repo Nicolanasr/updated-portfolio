@@ -11,6 +11,12 @@
       "title": "Work Experience",
       "experiences": [
         {
+          "place": "<a href='http://softrasys.com/' target='_blank'>Softrasys</a>",
+          "title": "Team lead ",
+          "from": "October 2022",
+          "description": "<ul> <li>Responsible for the improvement and maintenance of the tracking solution provided by the company.</li> <li>Making sure everyone in the team knows their responsabilities.</li> <li>Working with C#, SQL Server, Micorosoft Azure ...</li></u>"
+        },
+        {
           "place": "<a href='https://greynab.com/' target='_blank'>Greynab</a>",
           "title": "Full Stack web developer",
           "from": "July 2021",
