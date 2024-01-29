@@ -11,9 +11,16 @@
       "title": "Work Experience",
       "experiences": [
         {
-          "place": "<a href='http://softrasys.com/' target='_blank'>Softrasys</a>",
+          "place": "<a href='https://www.pmi.com/' target='_blank'>Philip Morris International</a>",
+          "title": "IT Analyst",
+          "from": "May 2023",
+          "description": "<ul> <li>Understanding business and technology needs</li> <li>Designing, analyzing and implementing efficient IT systems</li> <li>Gathering feedback from end users to continue improving systems</li><li>Gathering feedback from end users to continue improving systems</li><li>Develop and analyze functional specifications</li><li>Coordinate developers to build and implement technology solutions</li><li>Design efficient IT systems to meet business and technology needs</li></u>"
+        },
+        {
+          "place": "<a href='https://gps.softrasys.com/' target='_blank'>Softrasys</a>",
           "title": "Team lead ",
           "from": "October 2022",
+          "to": "May 2023",
           "description": "<ul> <li>Responsible for the improvement and maintenance of the tracking solution provided by the company.</li> <li>Making sure everyone in the team knows their responsabilities.</li> <li>Working with C#, SQL Server, Micorosoft Azure ...</li></u>"
         },
         {
