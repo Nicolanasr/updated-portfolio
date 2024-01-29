@@ -5,7 +5,6 @@ import ContactForm from "../ContactForm/ContactForm";
 import ContactInfo from "../ContactInfo/ContactInfo";
 import SectionIntro from "../SectionIntro/SectionIntro";
 
-
 import classes from "./Footer.module.css";
 
 const Footer = () => {
@@ -21,7 +20,7 @@ const Footer = () => {
 				/>
 
 				<ContactInfo />
-				<ContactForm />
+				{/* <ContactForm /> */}
 			</Container>
 		</div>
 	);

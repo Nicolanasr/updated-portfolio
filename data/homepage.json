@@ -1,185 +1,199 @@
 {
-  "aboutSection": {
-    "about": "A full stack web developer with 1+ year of work experience building and testing responsive web applications, <br />Skilled with JavaScript(Mern stack) and Python(Django). Independently built some websites(School management system and many more) that can be found on my portfolio.",
-    "fullName": "Nicolas Georges Nasr",
-    "age": "21",
-    "address": "Lebanon, Mount Lebanon, Byblos-Jbeil",
-    "profilePic": { "src": "/assets/images/profile-pic.jpg", "alt": "profile_pic" }
-  },
-  "careerSection": [
-    {
-      "title": "Work Experience",
-      "experiences": [
-        {
-          "place": "<a href='https://www.pmi.com/' target='_blank'>Philip Morris International</a>",
-          "title": "IT Analyst",
-          "from": "May 2023",
-          "description": "<ul> <li>Understanding business and technology needs</li> <li>Designing, analyzing and implementing efficient IT systems</li> <li>Gathering feedback from end users to continue improving systems</li><li>Gathering feedback from end users to continue improving systems</li><li>Develop and analyze functional specifications</li><li>Coordinate developers to build and implement technology solutions</li><li>Design efficient IT systems to meet business and technology needs</li></u>"
-        },
-        {
-          "place": "<a href='https://gps.softrasys.com/' target='_blank'>Softrasys</a>",
-          "title": "Team lead ",
-          "from": "October 2022",
-          "to": "May 2023",
-          "description": "<ul> <li>Responsible for the improvement and maintenance of the tracking solution provided by the company.</li> <li>Making sure everyone in the team knows their responsabilities.</li> <li>Working with C#, SQL Server, Micorosoft Azure ...</li></u>"
-        },
-        {
-          "place": "<a href='https://greynab.com/' target='_blank'>Greynab</a>",
-          "title": "Full Stack web developer",
-          "from": "July 2021",
-          "to": "October 2022",
-          "description": "<ul> <li>Managing the complete software development process from conception to deployment.</li> <li>Developing full-stack responsive web applications.</li></u>"
-        }
-      ]
-    },
-    {
-      "title": "Education",
-      "experiences": [
-        {
-          "place": "Don Bosco School",
-          "from": "2004",
-          "to": "2015"
-        },
+	"aboutSection": {
+		"about": ",I am a seasoned web developer with over 5 years of experience. My journey in the digital landscape has been fueled by a passion for crafting exceptional web experiences. Proficient in a versatile tech stack encompassing JavaScript, C#, .NET, React, Python, Node.js, and Next.js, I bring a wealth of expertise to every project.With a proven track record of delivering innovative solutions, I specialize in building scalable, responsive, and user-friendly web applications. From front-end magic to back-end prowess, my skills are finely tuned to create seamless digital experiences.",
+		"fullName": "Nicolas Georges Nasr",
+		"age": "24",
+		"address": "Lebanon, Mount Lebanon, Byblos-Jbeil",
+		"profilePic": { "src": "/assets/images/IMG_0711.jpg", "alt": "profile_pic" }
+	},
+	"careerSection": [
+		{
+			"title": "Work Experience",
+			"experiences": [
+				{
+					"place": "<a href='https://www.pmi.com/' target='_blank'>Philip Morris International</a>",
+					"title": "IT Analyst",
+					"from": "May 2023",
+					"description": "<ul> <li>Understanding business and technology needs</li> <li>Designing, analyzing and implementing efficient IT systems</li> <li>Gathering feedback from end users to continue improving systems</li><li>Gathering feedback from end users to continue improving systems</li><li>Develop and analyze functional specifications</li><li>Coordinate developers to build and implement technology solutions</li><li>Design efficient IT systems to meet business and technology needs</li></u>"
+				},
+				{
+					"place": "<a href='https://gps.softrasys.com/' target='_blank'>Softrasys</a>",
+					"title": "Team lead ",
+					"from": "October 2022",
+					"to": "May 2023",
+					"description": "<ul> <li>Responsible for the improvement and maintenance of the tracking solution provided by the company.</li> <li>Making sure everyone in the team knows their responsabilities.</li> <li>Working with C#, SQL Server, Micorosoft Azure ...</li></u>"
+				},
+				{
+					"place": "<a href='https://greynab.com/' target='_blank'>Greynab</a>",
+					"title": "Full Stack web developer",
+					"from": "July 2021",
+					"to": "October 2022",
+					"description": "<ul> <li>Managing the complete software development process from conception to deployment.</li> <li>Developing full-stack responsive web applications.</li></u>"
+				}
+			]
+		},
+		{
+			"title": "Education",
+			"experiences": [
+				{
+					"place": "Don Bosco School",
+					"from": "2004",
+					"to": "2015"
+				},
 
-        {
-          "place": "Lycee Officiel Ghazir",
-          "from": "2015",
-          "to": "2018",
-          "description": "Went to high school and graduated from Lycee Officiel Ghazir. <br />Did my Baccalauréat in SV."
-        },
-        {
-          "place": "Lebanese University-Faculty Of Science",
-          "title": "Computer Science",
-          "from": "2019",
-          "description": "Currently my 5th semester studying computer science at the lebanese university looking to graduate in 2022"
-        }
-      ]
-    },
-    {
-      "title": "Licences And Certifications",
-      "experiences": [
-        {
-          "place": "Full Stack Development Track",
-          "date": "March 2021",
-          "description": "Udacity - <a href='/certification/udacity/Full-Stack-Development-Track' target='_blank'>Credential Url</a>"
-        },
-        {
-          "place": "Web Application Technologies and Django",
-          "date": "December 2020",
-          "description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/certificate/KCJAC7NPH3PL' target='_blank'>Credential Url</a>"
-        },
-        {
-          "place": "Python for Everybody Specialization",
-          "date": "December 2020",
-          "description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/PM27BFAX7VDH' target='_blank'>Credential Url</a>"
-        }
-      ]
-    }
-  ],
-  "skillsSection": [
-    {
-      "title": "PROGRAMMING LANGUAGES",
-      "skills": [
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/javascript--v1.png'/>", "text": "JavaScript" },
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/python--v1.png'/>", "text": "Python" },
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/c-plus-plus-logo.png'/>", "text": "C++" },
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png'/>", "text": "Java" }
-      ]
-    },
-    {
-      "title": "FRONT-END",
-      "skills": [
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/html-5--v1.png'/>", "text": "HTML" },
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/css3.png'/>", "text": "CSS" },
-        { "icon": "<img src='https://img.icons8.com/plasticine/100/000000/react.png'/>", "text": "React" },
-        { "icon": "<img src='https://nextjs.org/static/favicon/favicon-32x32.png'/>", "text": "NextJs" },
-        { "icon": "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png'/>", "text": "Angular" },
-        { "icon": "<img src='https://jquery.com/jquery-wp-content/themes/jquery.com/i/favicon.ico'/>", "text": "JQuery" }
-      ]
-    },
-    {
-      "title": "BACK-END",
-      "skills": [
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/nodejs.png'/>", "text": "NodeJs" },
-        { "icon": "<img src='https://img.icons8.com/windows/32/000000/node-js.png'/>", "text": "ExpressJs" },
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/django.png'/>", "text": "Django" },
-        { "icon": "<img src='https://img.icons8.com/material-outlined/48/000000/api-settings.png'/>", "text": "Rest API" }
-      ]
-    },
-    {
-      "title": "DATABASE",
-      "skills": [
-        { "icon": "<img src='https://img.icons8.com/color/48/000000/mongodb.png'/>", "text": "MongoDB" },
-        { "icon": "<img src='https://img.icons8.com/dotty/80/000000/sql.png'/>", "text": "SQL" }
-      ]
-    }
-  ],
-  "projectsSection": [
-     {
-      "title": "The B.Hive NFT",
-      "description": "The B.hive is the first coffee shop to introduce NFTs, A website built fully with Nextjs",
-      "image": "/assets/images/Slice 1.png",
-      "projectUrl": "",
-      "demoBtn": { "text": "Demo", "url": "https://www.thebhive.io/" }
-    },
-     {
-      "title": "Women’s Football in the Saudi Arabian Football Federation",
-      "description": "Website for the national and regional women's football leaugues under the Saudi Arabian Football Federation, showing results, fictures, all teams and a gallery for each match. Built mainly with NextJS",
-      "image": "/assets/images/wfl-showcase.png",
-      "projectUrl": "",
-      "demoBtn": { "text": "Demo", "url": "https://futsal-development.vercel.app/en/" }
-    },
-     {
-      "title": "MenaBev E-commerce",
-      "description": "Built the full website and E-commerce for MenaBev One of the Biggest and Highly Automated Beverage Plants in the World using NextJS",
-      "image": "/assets/images/menabev-showcase.png",
-      "projectUrl": "",
-      "demoBtn": { "text": "Demo", "url": "https://menabev.vercel.app/" }
-    },
-    {
-      "title": "KAUST Knowledge Partnership Program",
-      "description": "This platform enables Industrys to request assistance with a technical challenge that is then reviewed, evaluated, and answered by KAUST students, faculty and subject matter expert.",
-      "image": "/assets/images/screenshot-kpp.kaust.edu.sa.png",
-      "projectUrl": "",
-      "demoBtn": { "text": "Live Demo", "url": "https://kpp.kaust.edu.sa/" }
-    },
-    {
-      "title": "E-commerce Website",
-      "description": "Fully functional e-commerce website built with django 3.1.7 and Python 3.9.1",
-      "image": "https://i.imgur.com/lH87LZ7.png",
-      "projectUrl": "/project/1",
-      "demoBtn": { "text": "Live Demo", "url": "https://nicolas-e-commerce.herokuapp.com/store/" },
-      "codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/e-commerce" }
-    },
-    {
-      "title": "Project management system",
-      "description": "A project management system for small and large teams built with django 3.1.7 and Python 3.9.1",
-      "image": "https://i.imgur.com/4QTagJQ.png",
-      "projectUrl": "/project/2",
-      "demoBtn": { "text": "Live Demo", "url": "https://nicolas-prm-2.herokuapp.com/" },
-      "codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/PRM-nicolas-Heroku-" }
-    },
-    {
-      "title": "School management system",
-      "description": "Fully featured school management system (LMS)",
-      "image": "https://i.imgur.com/TJjvhl8.png",
-      "projectUrl": "/project/3",
-      "demoBtn": { "text": "Live Demo", "url": "https://nicolas-school-management.herokuapp.com/" },
-      "codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/school-management" }
-    },
-    {
-      "title": "Discord bot",
-      "description": "A discord bot written in python",
-      "image": "https://i.imgur.com/rC9dtaW.png",
-      "projectUrl": "/project/4",
-      "codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/discord-bot" }
-    },
-    {
-      "title": "Twitter followers check",
-      "description": "A twitter bot that will check who followed and who unfollowed (Using twitter api)",
-      "image": "https://i.imgur.com/FgB7Vqs.png",
-      "projectUrl": "/project/5",
-      "codeBtn": { "text": "Source Code", "url": "https://github.com/Nicolanasr/Twitter-follower-API" }
-    }
-  ]
+				{
+					"place": "Lycee Officiel Ghazir",
+					"from": "2015",
+					"to": "2018",
+					"description": "Went to high school and graduated from Lycee Officiel Ghazir. <br />Did my Baccalauréat in SV."
+				},
+				{
+					"place": "Lebanese University-Faculty Of Science",
+					"title": "Computer Science",
+					"from": "2019",
+					"description": "Currently my 5th semester studying computer science at the lebanese university looking to graduate in 2022"
+				}
+			]
+		},
+		{
+			"title": "Licences And Certifications",
+			"experiences": [
+				{
+					"place": "Full Stack Development Track",
+					"date": "March 2021",
+					"description": "Udacity - <a href='/certification/udacity/Full-Stack-Development-Track' target='_blank'>Credential Url</a>"
+				},
+				{
+					"place": "Web Application Technologies and Django",
+					"date": "December 2020",
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/certificate/KCJAC7NPH3PL' target='_blank'>Credential Url</a>"
+				},
+				{
+					"place": "Python for Everybody Specialization",
+					"date": "December 2020",
+					"description": "Michigan university - <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/PM27BFAX7VDH' target='_blank'>Credential Url</a>"
+				}
+			]
+		}
+	],
+	"skillsSection": [
+		{
+			"title": "PROGRAMMING LANGUAGES",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/javascript--v1.png'/>", "text": "JavaScript" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/python--v1.png'/>", "text": "Python" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/c-plus-plus-logo.png'/>", "text": "C++" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png'/>", "text": "Java" }
+			]
+		},
+		{
+			"title": "FRONT-END",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/html-5--v1.png'/>", "text": "HTML" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/css3.png'/>", "text": "CSS" },
+				{ "icon": "<img src='https://img.icons8.com/plasticine/100/000000/react.png'/>", "text": "React" },
+				{ "icon": "<img src='https://nextjs.org/static/favicon/favicon-32x32.png'/>", "text": "NextJs" },
+				{
+					"icon": "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png'/>",
+					"text": "Angular"
+				},
+				{ "icon": "<img src='https://jquery.com/jquery-wp-content/themes/jquery.com/i/favicon.ico'/>", "text": "JQuery" }
+			]
+		},
+		{
+			"title": "BACK-END",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/nodejs.png'/>", "text": "NodeJs" },
+				{ "icon": "<img src='https://img.icons8.com/windows/32/000000/node-js.png'/>", "text": "ExpressJs" },
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/django.png'/>", "text": "Django" },
+				{ "icon": "<img src='https://img.icons8.com/material-outlined/48/000000/api-settings.png'/>", "text": "Rest API" }
+			]
+		},
+		{
+			"title": "DATABASE",
+			"skills": [
+				{ "icon": "<img src='https://img.icons8.com/color/48/000000/mongodb.png'/>", "text": "MongoDB" },
+				{ "icon": "<img src='https://img.icons8.com/dotty/80/000000/sql.png'/>", "text": "SQL" }
+			]
+		}
+	],
+	"projectsSection": [
+		{
+			"title": "The B.Hive Mobile APP",
+			"description": "The owners of Bhive wanted to expand their business by creating a mobile ecommerce app that would allow their customers to easily order coffee and merchandise, book space, register for events, and pay through their Binance account.",
+			"image": "/assets/images/Screenshot 2024-01-29 at 22.49.55.png",
+			"projectUrl": "https://themetanest.com/cases/the_bhive_mobile_app",
+			"demoBtn": { "text": "Case", "url": "https://themetanest.com/cases/the_bhive_mobile_app" }
+		},
+		{
+			"title": "Park Avenue",
+			"description": "Park Avenue is an informative website for a dental clinic located in Dubai. The target audience for the website is individuals and families looking for dental care, as well as businesses seeking dental services for their employees.",
+			"image": "/assets/images/parkavenue.png",
+			"projectUrl": "https://themetanest.com/cases/park_avenue",
+			"demoBtn": { "text": "Case", "url": "https://themetanest.com/cases/park_avenue" }
+		},
+		{
+			"title": "Boulisa",
+			"description": "Boulisa is a web app that connects insurance companies with clients, providing a simple and streamlined way to purchase insurance policies online.",
+			"image": "/assets/images/Screenshot 2024-01-29 at 22-52-33 The Metanest Digital Marketing Agency.png",
+			"projectUrl": "https://themetanest.com/cases/boulisa",
+			"demoBtn": { "text": "Case", "url": "https://themetanest.com/cases/boulisa" }
+		},
+		{
+			"title": "Softrasys",
+			"description": "SOFTRASYS™ is a multinational privately owned software company with bases in France and Lebanon. SOFTRASYS™ is dedicated to providing unique Fleet & Security Management Solutions",
+			"image": "/assets/images/softrasys.png",
+			"projectUrl": "https://gps.softrasys.com/",
+			"demoBtn": { "text": "Website", "url": "https://gps.softrasys.com/" }
+		},
+		{
+			"title": "Jean Fares Couture",
+			"description": "Jean Fares Couture ecommerce website is targeted towards individuals who are interested in high-end, luxury fashion and are willing to invest in exclusive designer pieces.",
+			"image": "/assets/images/jean-fares.png",
+			"projectUrl": "https://themetanest.com/cases/jean_fares_couture",
+			"demoBtn": { "text": "Case", "url": "https://themetanest.com/cases/jean_fares_couture" }
+		},
+		{
+			"title": "Mommy And Me",
+			"description": "Mommy and Me ecommerce website is targeted towards new and expecting parents who are looking for high-quality and safe products for their newborn babies.",
+			"image": "/assets/images/mommy-and-me.png",
+			"projectUrl": "https://themetanest.com/cases/mommy_and_me",
+			"demoBtn": { "text": "Case", "url": "https://themetanest.com/cases/mommy_and_me" }
+		},
+		{
+			"title": "The B.Hive NFT",
+			"description": "The B.hive is the first coffee shop to introduce NFTs, A website built fully with Nextjs",
+			"image": "/assets/images/screenshot-kpp.kaust.edu.sa.png",
+			"projectUrl": "https://www.thebhive.io/",
+			"demoBtn": { "text": "Demo", "url": "https://www.thebhive.io/" }
+		},
+		{
+			"title": "Opal Event Management",
+			"description": "Opal is an event management agencey",
+			"image": "/assets/images/opal.png",
+			"projectUrl": "https://www.opaleventmanagement.com/",
+			"demoBtn": { "text": "Website", "url": "https://www.opaleventmanagement.com/" }
+		},
+		{
+			"title": "Women’s Football in the Saudi Arabian Football Federation",
+			"description": "Website for the national and regional women's football leaugues under the Saudi Arabian Football Federation, showing results, fictures, all teams and a gallery for each match. Built mainly with NextJS",
+			"image": "/assets/images/wfl-showcase.png",
+			"projectUrl": "https://futsal-development.vercel.app/en/",
+			"demoBtn": { "text": "Demo", "url": "https://futsal-development.vercel.app/en/" }
+		},
+		{
+			"title": "MenaBev E-commerce",
+			"description": "Built the full website and E-commerce for MenaBev One of the Biggest and Highly Automated Beverage Plants in the World using NextJS",
+			"image": "/assets/images/menabev-showcase.png",
+			"projectUrl": "https://menabev.vercel.app/",
+			"demoBtn": { "text": "Demo", "url": "https://menabev.vercel.app/" }
+		},
+		{
+			"title": "KAUST Knowledge Partnership Program",
+			"description": "This platform enables Industrys to request assistance with a technical challenge that is then reviewed, evaluated, and answered by KAUST students, faculty and subject matter expert.",
+			"image": "/assets/images/screenshot-kpp.kaust.edu.sa.png",
+			"projectUrl": "https://kpp.kaust.edu.sa/",
+			"demoBtn": { "text": "Live Demo", "url": "https://kpp.kaust.edu.sa/" }
+		}
+	]
 }

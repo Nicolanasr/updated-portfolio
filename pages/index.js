@@ -9,47 +9,48 @@ import ProjectsSections from "../Components/PageSections/ProjectsSection/Project
 import Footer from "../Components/Footer/Footer";
 
 export default function Home(props) {
-	return (
-		<div>
-			<section>
-				<HeroSection />
-			</section>
+    return (
+        <div>
+            <section>
+                <HeroSection />
+            </section>
 
-			<section id="about">
-				<AboutSection data={props.aboutSection} />
-			</section>
+            <section id="about">
+                <AboutSection data={props.aboutSection} />
+            </section>
 
-			<section id="skills">
-				<SkillsSection data={props.skillsSection} />
-			</section>
+            <section id="skills">
+                <SkillsSection data={props.skillsSection} />
+            </section>
 
-			<section id="career">
-				<CareerSection data={props.careerSection} />
-			</section>
+            <section id="projects">
+                <ProjectsSections data={props.projectsSection} />
+            </section>
 
-			<section id="projects">
-				<ProjectsSections data={props.projectsSection} />
-			</section>
+            <section id="career">
+                <CareerSection data={props.careerSection} />
+            </section>
 
-			<section id="contact">
-				<Footer />
-			</section>
-		</div>
-	);
+
+            <section id="contact">
+                <Footer />
+            </section>
+        </div>
+    );
 }
 
 export async function getStaticProps() {
-	const homePath = path.join(process.cwd(), "data", "homepage.json");
-	const homeJsonData = await fs.readFile(homePath);
-	const homeData = JSON.parse(homeJsonData);
+    const homePath = path.join(process.cwd(), "data", "homepage.json");
+    const homeJsonData = await fs.readFile(homePath);
+    const homeData = JSON.parse(homeJsonData);
 
-	return {
-		props: {
-			aboutSection: homeData.aboutSection,
-			careerSection: homeData.careerSection,
-			skillsSection: homeData.skillsSection,
-			projectsSection: homeData.projectsSection,
-		},
-		revalidate: 86400,
-	};
+    return {
+        props: {
+            aboutSection: homeData.aboutSection,
+            careerSection: homeData.careerSection,
+            skillsSection: homeData.skillsSection,
+            projectsSection: homeData.projectsSection,
+        },
+        revalidate: 86400,
+    };
 }
